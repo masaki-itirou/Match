@@ -1,0 +1,4 @@
+自作SNSのソースコードです。
+rake,railsコマンドの実行でdelayed_jobs関連の問題が起きれば、
+config/initializers/my/init.rbが問題になってるかもしれません。
+（AWSで稼働させてましたが、コードを公開するにあたりセキュリティ面で不安がありましたので現在は停止中です）

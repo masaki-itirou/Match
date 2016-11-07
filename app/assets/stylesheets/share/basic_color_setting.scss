@@ -1,0 +1,30 @@
+body {
+  color: $text_color;
+  background-color: $bg_color;
+  input,textarea {
+    background-color: $thz_bg_color !important;
+    color: $text_color !important;
+  }
+  select {
+    background-color: $thz_bg_color !important;
+  }
+  
+  .modal-content{
+  background-color: $thz_bg_color;
+   .list-group *{
+      color: $text_color;
+      background-color: $bg_color;
+   }
+   button {
+     color: $text_color;
+     background-color: $bg_color;
+   }
+   input,textarea {
+     background-color: $bg_color !important;
+   }
+}
+      
+}
+
+
+

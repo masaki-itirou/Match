@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Match</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <%= stylesheet_link_tag    'mobile_application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'mobile_application', 'data-turbolinks-track' => true %>
+  <!-- 
+  <%= javascript_include_tag 'i18n/#{I18n.locale}', 'data-turbolinks-track' => true %>
+  -->
+  <%= csrf_meta_tags %>
+  <%=render partial:"layouts/set_i18n.html.erb"%>  
+  <%= favicon_link_tag "/favicon.ico"%>
+</head>
+<body>
+	<%=render partial:"menu/button"%>
+	<!-- menuボタンのレイアウトのため,fixedを使ってるので、重なってしまうから -->
+	<div style="width:100%;">
+		<button style="color:rgba(20,20,20,0);
+			background-color:rgba(20,20,20,0);
+			border-color:rgba(20,20,20,0);
+			pointer-events:none;" 		
+			class="btn btn-info btn-lg">
+			dummy_space
+		</button>
+	</div>
+	<%=render partial:"menu/list"%>
+	<%=render partial:"message/box"%>
+	<%=render partial:"user/modal_show_update_word"%>
+	<%=render partial:'layouts/grid'%>
+</body>
+</html>

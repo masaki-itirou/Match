@@ -1,0 +1,24 @@
+<div>current user:<%=@current%></div>
+<div class="container">
+<table class="table table-bordered">	
+	<thead>
+		<%ary = @models[0].class.column_names%>		
+		<tr>
+			<%ary.each do |ins_name|%>
+				<th><%=ins_name%></th>	
+			<%end%>			
+		</tr>
+	</thead>
+	<tbody>
+		<%@models.each do |obj|%>
+			<tr>
+				<%ary.each do |ins_name|%>
+					<td>					
+						<%=obj.send(ins_name)%>				
+					</td>
+				<%end%>
+			</tr>
+		<%end%>		
+	</tbody>	
+</table>
+</div>

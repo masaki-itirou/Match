@@ -1,0 +1,100 @@
++LICENSE++
+ 
+ --ImageMagick--
+ Thanks to ImageMagick Studio LLC for ImageMagick.
+ License:http://www.imagemagick.org/script/license.php
+ 
+ --RMagick--
+ Copyright &copy; 2002-2009 by Timothy P. Hunter
+ Changes since Nov. 2009 copyright &copy; by Benjamin Thomas and Omer Bar-or
+ Released under the MIT license
+ https://opensource.org/licenses/mit-license.php
+ 
+ --Rails--
+ Released under the MIT license
+ https://opensource.org/licenses/mit-license.php 
+ 
+ --jsSHA--
+ Copyright Brian Turek 2008-2015
+ Distributed under the BSD License
+ https://opensource.org/licenses/BSD-3-Clause
+ 
+ --unicorn--
+ Copyright (c) 2016 UNICORN-Project
+ Released under the MIT license
+ https://github.com/UNICORN-Project/UNICORN/blob/master/LICENSE
+ 
+ --nginx--
+ Copyright (C) 2002-2016 Igor Sysoev
+ Copyright (C) 2011-2016 Nginx, Inc.
+ Released under The BSD 2-Clause License
+ https://opensource.org/licenses/bsd-license.php
+ http://nginx.org/LICENSE
+ 
+ --sqlite3--
+ Released under the Public Domain
+ https://www.sqlite.org/copyright.html
+ 
+ --remotipart--
+ Copyright (c) 2009 Greg Leppert
+ Released under the MIT license
+ https://github.com/JangoSteve/remotipart/blob/master/LICENSE
+ 
+ 
+--delayed_job_active_record--
+Copyright (c) 2005 Tobias Lütke
+Released under the MIT license
+https://github.com/collectiveidea/delayed_job_active_record/blob/master/LICENSE.md
+ 
+--uglifier--
+Copyright (c) 2011 Ville Lautanala
+Released under the MIT license 
+https://github.com/lautis/uglifier/blob/master/LICENSE.txt
+
+--therubyracer--
+Copyright (c) 2009,2010,2011,2012 Charles Lowell
+Released under the MIT license
+https://github.com/cowboyd/therubyracer
+
+--jquery-rails--
+Copyright (c) 2010-2016 Andre Arko
+Released under the MIT license
+https://github.com/cowboyd/therubyracer
+
+--jbuilder--
+Copyright (c) 2011-2016 David Heinemeier Hansson, 37signals
+Released under the MIT license
+https://github.com/rails/jbuilder/blob/master/MIT-LICENSE
+
+--sdoc--
+Copyright (c) 2014 Zachary Scott, Vladimir Kolesnikov, and Nathan Broadbent
+Released under the MIT license
+https://github.com/zzak/sdoc/blob/master/LICENSE
+
+--tzinfo-data--
+Copyright (c) 2005-2016 Philip Ross
+Released under the MIT license
+https://github.com/tzinfo/tzinfo-data/blob/master/LICENSE
+
+--rbenv--
+Copyright (c) 2013 Sam Stephenson
+Released under the MIT license
+https://github.com/rbenv/rbenv/blob/master/LICENSE
+
+--turobolinks--
+Copyright 2016 Basecamp, LLC
+https://github.com/turbolinks/turbolinks/blob/master/LICENSE
+(Released under the MIT license)
+
+--bootstrap-sass--
+The MIT License (MIT)
+Copyright (c) 2011-2016 Twitter, Inc
+Copyright (c) 2011-2016 The Bootstrap Authors
+https://github.com/twbs/bootstrap-sass/blob/master/LICENSE
+
+--i18n-js--
+N/A
+https://rubygems.org/gems/i18n-js
+
+
+

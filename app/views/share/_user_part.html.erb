@@ -1,0 +1,15 @@
+<div class="share_user_part" style="margin-bottom:2%;">
+	<img src="<%=thumbnail_src(user)%>"
+		class="share-user-part-thumbnail-size"
+		onclick="alert('something')">
+	<div style="display:inline-block;">
+		<div>
+			<%=user.name%>
+		</div>
+		<div>
+			<%=user.contact%>
+		</div>
+	</div>
+	<p><%=matched_word.join(" ")%></p>
+</div>
+<hr style="margin:0;"/>

@@ -1,0 +1,11 @@
+<div id="match_show_body">	
+<%if @user_ary.present?%>
+	<%@user_ary.each do |user|%>
+		<%=render partial:"share/user_part",
+			locals:{user:user,
+					matched_word:@id_word_hash[user.id.to_s]}%>
+	<%end%>
+<%else%>
+	<%=t "match.no_match"%>
+<%end%>
+</div>

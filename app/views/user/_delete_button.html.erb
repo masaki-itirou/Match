@@ -1,0 +1,33 @@
+<button style="position:absolute;right:5%;"type="button"
+	class="btn btn-danger my-button-size"
+	data-toggle="modal" data-target="#user_delete_button_modal_fade">
+	<%= t("user.delete_account")%>
+</button>
+
+<div id="user_delete_button_modal_fade" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header text-center">
+				<%=t("user.ask_delete")%>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"></div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<button id="user_delete_button_yes" type="button"
+						class="btn btn-danger btn-lg">
+							<%= t("yes")%>
+						</button>
+					</div>
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<button id="user_delete_button_no" type="button"
+						class="btn btn-primary btn-lg">
+							<%= t("no")%>
+						</button>
+					</div>
+					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

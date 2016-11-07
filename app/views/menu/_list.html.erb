@@ -1,0 +1,26 @@
+<div style="width:80%;display:none;"class="modal fade center-block" id="menu_list_fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content"> 
+      <div class="modal-body" id="nav_body">
+      	<div class="list-group" style="text-align:center;">
+			<%= link_to t("match.match"),{controller:'match',action:'show'}, 
+ 				{class:"list-group-item"} %>
+ 			<%= link_to t("user.edit_profile"),{controller:'user',action:'show_update'}, 
+ 				{class:"list-group-item"} %>
+ 			<a type="button" class="list-group-item" id="menu_list_edit_word" 
+ 				style="cursor: pointer;">
+ 				<%=t("user.edit_word")%>
+ 			</a>
+ 			<%= link_to t("tutorial.tutorial"),{controller:'other',action:'tutorial'}, 
+ 				{class:"list-group-item"} %> 			
+ 			<%= link_to t("login.logout"),{controller:'login',action:'logout'}, 
+ 				{class:"list-group-item"} %>
+		</div>
+		<button type="button" class="btn btn-default" 
+			data-dismiss="modal" style="width:100%">
+			close
+		</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,44 @@
+ja:
+  failed: "失敗"
+  success:  "成功"
+  name: "名前"
+  password: "パスワード"
+  confirm_password: "確認用パスワード"
+  language: "言語"
+  contact: "連絡先"
+  send: "送信"
+  sending: "送信中"
+  thumbnail:  "サムネイル"
+  word: "ワード"
+  yes: "はい"
+  no: "いいえ"
+  system_busy: "システムがビジー状態のようです"
+  user:
+    create_account: "アカウント作成"
+    delete_account: "アカウント削除"
+    edit_profile: "プロファイル編集"
+    edit_word:  "ワード編集"
+    update: "更新"
+    delete_success: "アカウント削除に成功しました"
+    password_mismatch:  "パスワードが不一致"
+    name_empty: "名前が空です"
+    used_name: "既に使用されてる名前です"
+    ask_delete: "アカウントを削除していいですか？"
+    name_too_long: "名前は%{length}文字以内にしてください"
+    word_too_long: "ワードは%{length}文字以内にしてください"
+    contact_too_long: "連絡先は%{length}文字以内にしてください"
+  login:
+    login:  "ログイン"
+    logout: "ログアウト"
+  match:
+    match:  "マッチング"
+    no_match: "マッチするユーザーがいませんでした。"
+    long_time: "マッチングに時間がかかっているようです。"
+  tutorial:
+    tutorial: "チュートリアル"
+  title:
+    make_account_page:  "アカウント作成ページ"
+    login_page: "ログインページ"
+  menu:
+    menu: "メニュー"
+    

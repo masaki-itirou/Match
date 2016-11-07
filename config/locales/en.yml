@@ -1,0 +1,63 @@
+#To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  failed: "failed"
+  success: "success"
+  name: "name" 
+  password: "password"
+  confirm_password: "confirm password"
+  language: "language"
+  contact: "contact"
+  send: "send"
+  sending: "sending"
+  thumbnail:  "thumbnail"
+  word: "word"
+  yes: "yes"
+  no: "no"
+  system_busy: "system is busy."
+  user:
+    create_account: "create account"
+    delete_account: "delete account"
+    edit_profile: "edit profile"
+    edit_word:  "edit word"
+    update: "update"
+    delete_success: "Deleating account have succeed."
+    password_mismatch: "password is mismatch."
+    name_empty: "name is empty."
+    used_name: "Used name."
+    ask_delete: "Do you allow to delete your account?"
+    name_too_long: "name in %{length} words or less."
+    word_too_long: "word in %{length} words or less."
+    contact_too_long: "contact in %{length} words or less."    
+  login:
+    login:  "login"
+    logout: "logout"
+  match:
+    match:  "match"
+    no_match: "Matched user is nothing."
+  tutorial:
+    tutorial: "tutorial"
+  title:
+    make_account_page:  "Make Account Page"
+    login_page: "Login Page"
+  menu:
+    menu: "menu"
+    
+    
+    
+      

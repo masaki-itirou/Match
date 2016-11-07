@@ -1,0 +1,5 @@
+require 'digest/sha2'
+require 'time'
+require 'date'
+require 'yaml'
+#require 'rmagick'

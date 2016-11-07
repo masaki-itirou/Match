@@ -1,0 +1,13 @@
+<%@user_ary.each do |user|%>
+	$("#match_show_body").append(
+		"<%=j(render partial:'share/user_part',
+			locals:{user:user,matched_word:@id_word_hash[user.id.to_s]})
+		%>"	
+	);
+<%end%>
+
+<%if @user_ary.present?%>
+	match_show_clo.reset_flag();
+<%else%>
+	match_show_clo.stop_timer();
+<%end%>
